@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body 
+{
+   
+   
+   background-repeat: no-repeat;
+   background-blend-mode:multiply ;
+   background-color: rgba(0, 0, 0, 0.304);
+   background-image: url(img/netflix.jpg);
+   background-color: rgba(0, 0, 0, 0.573);
+   background-size: 96pc;
+
+}
+img
+{
+    height:4pc ;
+    width: 11pc;
+}
+.nav
+{
+   display: flex;
+  
+   padding-top: 25px;
+   margin-left: 10pc;
+   
+  
+   
+   
+}
+img 
+{
+    padding-inline-end: 20pc;
+    height: 3pc;
+    width:10pc ;
+    
+}
+select {
+    margin-left: 30pc;
+    margin-right: 2pc;
+    width: 6pc;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.559);
+    color: white;
+    border-radius: 3px;
+
+}
+button {
+    width: 5pc;
+    height: 35px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.content 
+{
+    color: white;
+    text-align: center;
+    margin-top: 15pc;
+    font-family: sans-serif;
+    
+
+}
+.content h1 
+{
+    font-size: 3pc;
+    padding: 5px;
+}
+p 
+{
+    font-size: 25px;
+    padding: 20px;
+}
+ .bla 
+{
+    font-size: 20px;
+}
+.two
+{
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-top: 13pc;
+}
+.two img
+{
+    margin-left: 23pc;
+    width: 30pc;
+    height: 25pc;
+    padding-right:  20pc;
+    /* background-color: blue; */
+}
+.mid
+{
+    
+   padding-left: 25pc; 
+  
+}
+.Enjoy
+{
+    font-weight: bolder;
+    font-size: 50PX;
+}
+.mid1
+{
+    margin-top: 100px;
+    margin-left: -5pc;
+}
+.Download
+{
+    font-weight: bolder;
+    font-size: 50PX;
+}
+.three
+{
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-top: 7px;
+    text-align:end;
+    height: 30pc;
+    
+}
+.three img
+{
+    width: 15pc;
+    height: 15pc;
+   margin-left: 20pc;
+   margin-right: -10pc;
+   margin-top: 100px;
+}
+.watch
+{
+    font-weight: bolder;
+    font-size: 50PX;
+}
+.four
+{
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-top: 7px;
+    text-align:start;
+    height: 30pc;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.mid2
+{
+    margin-left: 12pc;
+}
+.four img
+{
+   height: 20pc;
+   width: 20pc;
+   
+}
+.kids
+{
+    font-weight: bolder;
+    font-size: 50PX; 
+}
+.five
+{
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-top: 7px;
+    text-align:start;
+    height: 30pc;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.mid3
+{
+    margin-left: 12pc;
+}
+.five img
+{
+    width: 35pc;
+    height: 20pc;
+   margin-left: 10pc;
+   margin-right: -20pc;
+   margin-top: 100px;
+}
+.six
+{
+    
+    color:white;
+    background-color: black;
+    margin-top: 7px;
+    text-align: center;
+}
+.FAQ {
+background-color: rgba(128, 128, 128, 0.406);
+width: 20;
+font-size: x-large;
+text-align: left;
+}
+.FAQ  :hover
+{
+    color: gray;
+    
+}
+.FAQ a 
+{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.seven
+{
+    color:white;
+    background-color: black;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.ques
+{
+    margin-top: 7px;
+    background-color: black;
+    color:rgba(255, 255, 255, 0.781); 
+    padding-left: 13pc;
+    padding-top: 3pc;
+    font-size: 15px;
+
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    /* margin-top: 7px; */
+    padding-top: 2pc;
+    line-height: 35px;
+    font-size: 15px;
+
+}
+footer a
+{
+    color:rgba(255, 255, 255, 0.781);
+
+}
+.mid
+{
+    margin-left: -15pc;
+}
+.end
+{
+    margin-right: 20pc;
+}
+
+#down
+{
+ margin-left: -1pc;
+ margin-top: 5pc;
+}
+.netflix
+{
+    margin-left: -1pc;
+ 
+}
+#a {
+    display:flex;
+    flex-direction: column;
+    margin-left: 13pc;
+    margin-right: 13pc;
+    margin-top: 10px;
+    padding: 25px;
+} 
+
+#b {
+    margin-left: 13pc;
+    margin-right: 13pc;
+    margin-top: 10px;
+    padding:20px
+} 
+#c {
+    margin-left: 13pc;
+    margin-right: 13pc;
+    margin-top: 10px;
+    padding:20px
+} 
+#d {
+  margin-left: 13pc;
+    margin-right: 13pc;
+    margin-top: 10px;
+    padding:20px
+} 
+#e {
+    margin-left: 13pc;
+    margin-right: 13pc;
+    margin-top: 10px;
+    padding:20px
+} 
+#f{
+    margin-left: 13pc;
+    margin-right: 13pc;
+    margin-top: 10px;
+    padding:20px
+} 
+ #g{
+    background-color: black;
+    margin-left: 13pc;
+    margin-right: 13pc;
+    margin-top: 10px;
+    padding:20px;
+    text-align: center;
+}  
+.six h1
+{
+    font-size: 3pc;
+    font-weight: bolder;
+}
+  .text
+{
+    
+    padding-bottom: 5pc;
+    
+} 
+.red
+{
+   height: 3.4pc; 
+   width: 10pc;
+   margin-left: 20px;
+   font-size: 20px;
+}
+
+.text1
+{
+height: 3pc;
+width: 20pc;
+background-color:white;
+
+}
+

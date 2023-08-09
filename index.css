@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+*{
+padding: 0;
+margin: 0;
+font-family: 'Signika Negative', sans-serif;
+color: aliceblue;
+
+
+
+}
+
+body{
+    background-image: linear-gradient(45deg,rgb(4, 4, 81) ,black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    /* background: linear-gradient(45deg,rgb(3, 3, 67),rgb(100, 7, 100)); */
+    color: aliceblue;
+}
+
+#sej
+{
+    margin-right: 60pc;
+    padding-inline: 10px;
+    font-size: large;
+}
+.nav {
+    padding-inline: 20px;
+    font-size: large;
+    
+}
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.nav a:hover
+{
+    color:rgb(174, 54, 168);
+    
+}
+
+.container1
+{
+    margin: 50px;
+    display: flex;
+    padding-top: 10pc;
+    font-size: x-large;
+    
+    
+}
+.body {
+    
+    margin-right: 15pc; 
+    width: 60pc;
+    /* background-color: black; */
+}
+.img-profile {
+    margin-right: 15pc;
+    background:linear-gradient(45deg,rgb(167, 52, 71),rgb(176, 30, 176));
+    border-radius: 50%;
+    height: 15pc;
+    width: 25pc;
+    -webkit-animation: bounce 2s ease;
+
+}
+img {
+    margin-left: 10.5px;
+    margin-top: 8px;
+    height: 14pc;
+    width:16.5pc;
+    background: linear-gradient(45deg,rgb(4, 4, 81) ,black);
+    border-radius: 50%;
+}
+.btn
+{
+    background:linear-gradient(45deg,rgb(235, 175, 186),rgb(176, 30, 176));
+    height: 3pc;
+    width: 8pc;
+    border-radius: 6pc;
+    border: solid;
+    margin-top: 4pc;
+    
+
+}
+
+
+    
+h3
+{
+    -webkit-text-stroke:  rgb(234, 231, 244);
+    color: transparent;
+    background-image: linear-gradient(white,white );
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -680px 0;
+    animation: animateText 6s linear infinite;
+    
+    
+}
+@keyframes animateText
+{
+    0%,95%,100%
+    {
+        background-position: -680px 0;
+    }
+    65%,85%
+    {
+        background-position: 0 0;
+    }
+}
+@-webkit-keyframes bounce 
+{
+    0%
+{
+transform: scale(1) translate(0px, 0px);
+}
+
+30%
+{
+transform: scale(1,0) translate(0px, 10px); 
+}
+
+75%
+{
+transform: scale(1,1) translate(0px, -25px); 
+}
+
+100%
+{
+transform: scale(1) translate(0px, 0px);
+}
+}
+#about1
+{
+    margin-top: 4pc;
+    font-size: 20px;
+    width: 30pc;
+    margin-left: 50pc;
+    display: flex;
+    font-size: x-large;
+    margin-bottom: 5pc;
+}
+#about1 h1
+{
+   margin-bottom: 2pc; 
+}
+.white
+{
+    background-image: linear-gradient(white,white);
+}
+.penetration
+{
+    margin-left: -40pc ;
+}
+.advanced-services {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    flex-direction: row;
+    font-size: x-large;
+    
+  }
+  
+  .service {
+    background-color:pink;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-block-end: 5pc;
+    margin-left: 5pc;
+  }
+  
+  .service h3 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .service p {
+    color: #666;
+  }
+  .ser
+  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15pc;
+    margin-top: 8pc; 
+  }
+  .ser img
+  {
+    height: 10pc;
+    width: 15pc;
+    margin-block-end: 5pc;
+  }
+  
+  .servi
+  {
+   text-align: center;
+   margin-bottom: 5pc;
+   font-size: 3pc;
+   margin-left: 40pc;
+  }
+ 
+.contact
+{
+    display: flex;
+    margin-left: 1PC;
+    justify-content: space-around ;
+    margin-right: 15pc;
+    margin-top: 5pc;
+}
+.one
+{
+    font-size: xx-large;
+    margin-top: 5pc;
+}
+
+.two
+{
+    font-size: xx-large;
+    
+
+}
+  .two input
+  {
+    height: 3pc;
+    width: 20pc;
+    margin-block-end: 2pc;
+  }
+  .con
+  {
+    text-align: center;
+    font-size: 3pc;
+  }
